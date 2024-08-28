@@ -1,0 +1,11 @@
+{
+    "name": "maximaster/bitrix-single-connect",
+    "description": "Позволяет делать все запросы к СУБД через D7 подключения в старых версиях Битрикс, где делается два подключения к базе вместо одного.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maximaster\\BitrixSingleConnect\\": "src/"
+        }
+    },
+    "authors": [{"name":"Максим Лавриненко", "email": "maxim.lavrinenko@maximaster.ru"}]
+}
